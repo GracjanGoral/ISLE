@@ -98,7 +98,7 @@ python3 run.py \
 ### Parameters Description
 
 - `--data_path`: Path to the data file which contains the questions, type of dataset, and correct answers. See the file `example_of_data_perspective_taking.csv` for more details.
-- `--image_base_path`: Path to the folder where the images are stored. Ensure you provide the correct path to both the images and the path where questions are stored.
+- `--image_base_path`: Path to the folder where the images are stored. Ensure you provide the correct path to both the images and the path where questions are stored. You can use `example_of_images` as an example.
 - `--model_name`: Name of the model which will be used to generate answers. This is the model we use for testing perspective taking.
 - `--temperature`: Controls the randomness of the model's responses. The default setting is 0.0.
 - `--method`: The approach used to generate answers. Currently, we support 0-shot and Chain of Thought (CoT) methods.
