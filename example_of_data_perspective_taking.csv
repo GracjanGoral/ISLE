@@ -1,0 +1,2 @@
+id_image,question,gold_answer,partition,type_of_dataset,task
+1.jpg,"Assuming the snail Lego minifigure has the ability to see, can it see the flower in the picture?",No,1,isle-brick,perspective-taking
