@@ -58,9 +58,7 @@ export REPLICATE_API_TOKEN="your_replicate_api_token_here"
 **Note:**
 If you want to avoid manually mapping model answers, you can utilize another language model like GPT-4.
 To do so, you will need to provide an OpenAI token (currently, only GPT models are supported for mapping).
-Alternatively, you can disable this option by providing `"manually"` to the `--model_selector` option (see **Running Evaluation** section). This will result in all answers being mapped to `None`.
-
-
+Alternatively, you can disable this option by providing `"manually"` to the `--mapper_selector` option (see **Running Evaluation** section). This will result in all answers being mapped to `None`.
 
 ## Dataset Description
 
@@ -80,7 +78,7 @@ The associated CSV file contains the following fields:
 
 ### 3. Task Flexibility
 In addition to the predefined tasks, this construction of dataset allows the definition of any task that requires selecting options such as "Yes" or "No" (referred to as `"isle-brick"`), or selecting a number (referred to as `"isle-dots"`).
-This means you can define another task with the dataset name, either `"isle-brick"` or `"isle-dots"`, that requires selecting either a yes/no option or a numerical value.
+This means you can define another task with the dataset name, either `"isle-brick"` or `"isle-dots"`, which requires selecting either a yes/no option or a numerical value.
 ## Running Evaluation
 
 Execute your script with the necessary parameters:
