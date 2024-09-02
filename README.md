@@ -34,7 +34,7 @@ source venv/bin/activate
 ### 2. Clone the repository and navigate into the project directory
 ```bash
 # Clone the repository using the command below
-git clone https://github.com/GracjanGoral/multimodal_perspective_taking.git
+git clone https://github.com/GracjanGoral/ISLE.git
 
 # Navigate into the project directory
 cd multimodal_perspective_taking
