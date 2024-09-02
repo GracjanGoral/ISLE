@@ -8,7 +8,7 @@
 
 
 <p align="center">
-  <a href="https://sites.google.com/view/perspective-taking/strona-g%C5%82%C3%B3wna" target="_blank" style="text-decoration: none;">
+  <a href="" target="_blank" style="text-decoration: none;">
     <button style="background-color: #1E90FF; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin-top: 20px; cursor: pointer; border-radius: 12px;">
       Visit Project Website
     </button>
@@ -34,7 +34,7 @@ source venv/bin/activate
 ### 2. Clone the repository and navigate into the project directory
 ```bash
 # Clone the repository using the command below
-git clone https://github.com/GracjanGoral/ISLE.git
+git clone [link]
 
 # Navigate into the project directory
 cd ISLE
