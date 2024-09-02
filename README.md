@@ -37,7 +37,7 @@ source venv/bin/activate
 git clone https://github.com/GracjanGoral/ISLE.git
 
 # Navigate into the project directory
-cd multimodal_perspective_taking
+cd ISLE
 ```
 ### 3. Install the Required Libraries
 ```bash
