@@ -34,7 +34,7 @@ source venv/bin/activate
 ### 2. Clone the repository and navigate into the project directory
 ```bash
 # Clone the repository using the command below
-git clone https://github.com/GracjanGoral/ISLE.git
+git clone [link]
 
 # Navigate into the project directory
 cd ISLE
