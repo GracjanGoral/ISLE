@@ -90,7 +90,7 @@ python3 run.py \
     --model_name gpt-4o \
     --temperature 0.0 \
     --method 0-shot \
-    --dataset_type isle-dots \
+    --dataset_type isle-brick \
     --mapper_selector gpt-4 \
     --mapper_temperature 0.0 \
     --mapper_max_new_tokens 16
