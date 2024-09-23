@@ -17,7 +17,7 @@
 
 
 ## Project Description
-This repository is dedicated to evaluating visual perspective taking in vision-language models. It hosts the code used in the paper titled **"Seeing Through Their Eyes: Evaluating Visual Perspective Taking in Vision Language Models"**, which can be accessed [link].
+This repository is dedicated to evaluating visual perspective taking in vision-language models. It hosts the code used in the paper titled **"Seeing Through Their Eyes: Evaluating Visual Perspective Taking in Vision Language Models"**, which can be accessed [arXiv](https://sites.google.com/view/perspective-taking/strona-g%C5%82%C3%B3wna).
 ## Project Setup
 
 ### 1. Create a New Python Project
@@ -73,7 +73,7 @@ The associated CSV file contains the following fields:
 - **`question`**: A question posed for each image. Example: `"Assuming the snail Lego minifigure has the ability to see, can it see the flower in the picture?"`
 - **`gold_answer`**: The correct answer to the question.
 - **`partition`**: A classification of images, e.g., the first partition contains images with only one figure and one object, while the second partition includes images with one figure and two objects.
-- **`type_of_dataset`**: Currently supported types are `"isle-brick"` and `"isle-dots"`. More details can be found in the referenced article [link].
+- **`type_of_dataset`**: Currently supported types are `"isle-brick"` and `"isle-dots"`. More details can be found in the referenced article [arXiv](https://sites.google.com/view/perspective-taking/strona-g%C5%82%C3%B3wna).
 - **`task`**: The tasks available in this dataset include object detection (baseline) and perspective taking.
 
 ### 3. Task Flexibility
